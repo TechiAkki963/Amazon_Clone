@@ -2,11 +2,94 @@
     margin: 0;
     font-family: Arial;
     border: border-box;
-    /* good practice to measure */
+    /* good practice to measure - border box , usually the border of a box startes after the height and width size means the border is not included in that dimensions , to include border inside the height and width size we use border-box*/
 }
 
 .nav {
     height: 60px;
     /* Height for navbar*/
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
+
+
+.nav_logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+
+    background-image: url(/Amazon_Clone/images/amazon_logo.png);
+    height: 50px;
+    background-size: cover;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* Box 2*/
+
+.add_icon {
+    display: flex;
+    align-items: center;
+}
+
+.delivery {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.location {
+    margin-left: 3px;
+}
+
+/* nav - search*/
+.nav_search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightpink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.search_select {
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border: none
+}
+
+.search_input {
+    width: 100%; //*remaining space to input box*/
+    font-size: 1 rem;
+    height: 38px;
+    border: none;
+}
+
+.search_icon {
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    height: 38px;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
 }
