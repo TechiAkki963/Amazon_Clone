@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    /* good practice to measure */
+}
+
+.nav {
+    height: 60px;
+    /* Height for navbar
+    
+}
