@@ -258,3 +258,24 @@ ul a {
     background-size: cover;
     width: 100px;
 }
+
+.foot_panel4 {
+    background-color: #0F1111;
+    color: white;
+    height: 100px;
+    font-size: 0.75rem;
+    text-align: center;
+    /*display: flex;
+    justify-content: center;
+    */
+}
+
+.pages {
+
+    padding: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+
+}
