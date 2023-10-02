@@ -220,3 +220,24 @@ footer {
     align-items: center;
     font-size: 0.85rem;
 }
+
+.foot_panel2 {
+    background-color: #222F3D;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+
+}
