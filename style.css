@@ -241,3 +241,20 @@ ul a {
     color: #dddddd;
 
 }
+
+.foot_panel3 {
+    background-color: #222F3D;
+    color: #dddddd;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(/Amazon_Clone/images/amazon_logo.png);
+    height: 50px;
+    background-size: cover;
+    width: 100px;
+}
